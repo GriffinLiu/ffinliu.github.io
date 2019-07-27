@@ -18,21 +18,18 @@ body {
 } */
 
 html{
-border: 20px solid  linear-gradient(
-   to bottom,
-   pink,
-   white);
-border-bottom: 0;
+border: 20px solid  pink;
+/* border-bottom: 0; */
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
 }
 
 body:after {
    content: "";
    position: fixed;
-   background:  linear-gradient(
-      to bottom,
-      pink,
-      white) 1 100%;
-   left: 0;
+   background:  pink;
    right: 0;
    height: 20px;
    bottom: 0;
@@ -43,24 +40,28 @@ nav{
    flex-direction: row;
    justify-content: space-between;
    margin:100px;
-   margin-top: 60px;
+   font-size: 20px;
 }
 .logo{
-   width: 50px;
-   height: 50px;
+   width: 80px;
+   height: 80px;
    background-color: gray;
 }
 
-nav ul li{
+.desktop li{
    display: inline-block;
    text-align: center;
-   font-size: 18px;
    padding: .4em .2em;
+
 }
 
-nav ul li a{
+.desktop li a{
    text-decoration: none;
    color: black;
+}
+
+.desktop li a:hover{
+   color: pink;
 }
 
 main{
@@ -71,10 +72,33 @@ main{
    align-items: center;
 }
 
+
 .name{
    font-size: 50px;
 }
 
+.triangle{
+   width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #555;
+}
+
+.circle {
+   height: 70px;
+   width: 70px;
+   background-color: #555;
+   border-radius: 50%;
+ }
+
+ footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin:30px;
+ }
 .social{
    display: flex;
    flex-direction: row;
@@ -96,7 +120,7 @@ main{
 
 .social i:hover{
    margin-top: -15px;
-   transform: translate(0, -8);
+   transform: translate(0, -15);
 }
 .menu {
    position: fixed;
@@ -193,3 +217,17 @@ main{
    left: 8px;
  }
 
+.about-wrapper{
+   width: 100%;
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+}
+
+.pfp{
+   width: 300px;
+   height: 400px;
+   background-color: gray;
+   margin: 20px;
+}
