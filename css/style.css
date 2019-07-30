@@ -1,71 +1,63 @@
-/* body:before, body:after {
-   content: "";
-   position: fixed;
-   background: #900;
-   left: 0;
-   right: 0;
-   height: 15px;
-}
-body:before {
-   top: 0;
-}
-body:after {
-   bottom: 0;
-}
 body {
-   border-left: 15px solid #900;
-   border-right: 15px solid #900;
-} */
-
-html{
-border: 20px solid  pink;
-/* border-bottom: 0; */
+   font-family: 'Darker Grotesque', sans-serif;
+   border: 20px solid rgb(245, 224, 227);
 }
 
-body{
-   font-family: 'Roboto', sans-serif;
+nav {
+   padding: 80px;
+   font-size: 1.5em;
+   width: 100%;
+   height: auto;
 }
 
-body:after {
-   content: "";
-   position: fixed;
-   background:  pink;
-   right: 0;
-   height: 20px;
-   bottom: 0;
-}
 
-nav{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   margin:100px;
-   font-size: 20px;
-}
-.logo{
+.logo {
    width: 80px;
    height: 80px;
    background-color: gray;
 }
 
-.desktop li{
+#nav-items li {
+   list-style: none;
    display: inline-block;
    text-align: center;
    padding: .4em .2em;
 
 }
 
-.desktop li a{
+#nav-items a {
    text-decoration: none;
    color: black;
+   display: block;
 }
 
-.desktop li a:hover{
+#about:hover{
    color: pink;
 }
 
-main{
-   margin: 100px;
+#about:active{
+   color: pink;
+}
+
+#proj:hover{
+   color:rgb(252, 247, 182);
+}
+
+#proj:active{
+   color:rgb(252, 247, 182);
+}
+
+#photos:hover{
+   color:rgb(187, 214, 189);
+}
+
+#photos:active{
+   color:rgb(187, 214, 189);
+}
+
+
+main {
+   margin: 10px 100px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -73,16 +65,25 @@ main{
 }
 
 
-.name{
-   font-size: 50px;
+.name {
+   font-size: 100px;
+   top: 50%;
+   left: 50%;
 }
 
-.triangle{
+.square {
+   width: 80px;
+   height: 80px;
+   background-color: grey;
+}
+
+.triangle {
    width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 100px solid #555;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid #555;
+   padding: 20px;
 }
 
 .circle {
@@ -90,16 +91,18 @@ main{
    width: 70px;
    background-color: #555;
    border-radius: 50%;
- }
+   padding: 20px;
+}
 
- footer{
+footer {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   margin:30px;
- }
-.social{
+   margin: 30px;
+}
+
+.social {
    display: flex;
    flex-direction: row;
    padding: 30px;
@@ -107,127 +110,43 @@ main{
    font-size: 30px;
 }
 
-.social a{
+.social a {
    text-decoration: none;
    color: black;
    padding: 0px 10px;
    cursor: pointer;
 }
 
-.social i{
+.social i {
    transition: all ease-in-out 150ms;
 }
 
-.social i:hover{
+.social i:hover {
    margin-top: -15px;
    transform: translate(0, -15);
 }
-.menu {
-   position: fixed;
+
+.about-wrapper {
    width: 100%;
-   height: 50%;
-   text-align: center;
-   display: none;
-   z-index: 98;
-   font-size: 24px;
- }
-
- .menu ul {
-   list-style-type:none;
-   line-height: 2;
-   margin: 0px;
-   padding: 0px;
- }
-
- .menu ul li a {
-   text-decoration: none;
-   color: black;
- }
-
- .menu ul li a:hover {
-   color: silver;
- }
-
- .items {
-   position: absolute;
-   left: 50%;
-   top: 40%;
-   transform: translateX(-50%) translateY(-50%);
- }
-
- .open {
-   transition: all .5s ease-in-out;
-   display: block;
- }
-
- /* Hamburger */
-
- #hamb {
-   z-index: 100;
-   width: 60px;
-   height: 45px;
-   transform: rotate(0deg);
-   transition: .5s ease-in-out;
-   cursor: pointer;
- }
-
- #hamb span {
-   display: block;
-   position: absolute;
-   height: 9px;
-   width: 100%;
-   background: #22313F;
-   border-radius: 9px;
-   left: 0;
-   transform: rotate(0deg);
-   transition: .25s ease-in-out;
- }
-
-
-
- #hamb span:nth-child(1) {
-   top: 0px;
-   transform-origin: left center;
- }
-
- #hamb span:nth-child(2) {
-   top: 18px;
-   transform-origin: left center;
- }
-
- #hamb span:nth-child(3) {
-   top: 36px;
-   transform-origin: left center;
- }
-
- #hamb.open span:nth-child(1) {
-   transform: rotate(45deg);
-   top: -3px;
-   left: 8px;
- }
-
- #hamb.open span:nth-child(2) {
-   width: 0%;
-   opacity: 0;
- }
-
- #hamb.open span:nth-child(3) {
-   transform: rotate(-45deg);
-   top: 39px;
-   left: 8px;
- }
-
-.about-wrapper{
-   width: 100%;
-   display:flex;
-   flex-direction:row;
+   display: flex;
+   flex-direction: row;
    justify-content: center;
    align-items: center;
 }
 
-.pfp{
+.pfp {
    width: 300px;
    height: 400px;
    background-color: gray;
    margin: 20px;
 }
+
+.toggle {
+   font-size: 1.6em;
+   color: rgb(80, 80, 80);
+   display: none;
+   cursor: pointer;
+   left: 80%;
+}
+
+
