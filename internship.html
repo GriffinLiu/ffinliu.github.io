@@ -12,7 +12,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-   <div class="intern">
+   <div class="title">
       <div class="p2">Internship</div>
       <div class="p2">@ Tencent Star Route Mobile Game  </div>
       <div class="p4">June 2018</div>
@@ -40,11 +40,30 @@
        </ul>
      </nav>
    </div>
-</body>
+
+
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
 <script> $(".nav-btn").click(function(){
       $("#menu").toggleClass("active");
       $("#content").toggleClass("active");
       $(".nav-btn").toggleClass("active");
   		$("h1").toggleClass("active");
 });</script>
+
+<script>// ===== Scroll to Top ====
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+}); </script>
+
 </html>
