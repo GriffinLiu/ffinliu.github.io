@@ -18,6 +18,16 @@
    font-family: 'Muli', sans-serif;
 }
 
+.workbg {
+   background-color: #ecf0f1;
+   background-image: url('../img/worksbg.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
+
 .intro {
   margin-left: 70px;
   margin-top:250px;
@@ -190,9 +200,6 @@
    font-size: 50px;
    margin-top: 25%;
    margin-left: 50px;
-   text-decoration: none;
-   color: rgba(199, 168, 78);
-
 }
 
 .toothfairy {
@@ -277,4 +284,30 @@
    margin: 25% auto;
    margin-left: 25%;
    margin-right:25%;
+}
+
+.jino4 {
+   margin: 25% auto;
+   margin-left: 25%;
+   margin-right:25%;
+}
+
+.works a:link {
+   font-size: 30px;
+   text-decoration: none;
+   background-color: rgba(237,247,247);
+   padding-top: 400px;
+   padding-bottom: 400px;
+   border-radius: 20px;
+}
+.toothfairy a:link {
+   padding-right: 75px;
+   padding-left: 75px;
+}
+.woodshop a:link {
+   padding-right: 175px;
+   padding-left: 175px;
+}
+.works a:hover {
+   background-color: rgba(237,247,247,.7);
 }

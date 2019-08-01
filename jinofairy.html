@@ -15,6 +15,7 @@
    <div class="title">
       <div class="p2">Jinofairy</div>
       <div class="p4">Product Design</div>
+      <div class="p4">UI/UX Design</div>
       <div class="p5">Sensor Connected Baby teether for modern families</div>
       <div class="p4">June 2018</div>
    </div>
@@ -71,7 +72,19 @@
       <div class="p5">Each one has an unique code that can connect to Jinofairy</div>
       <img src="./img/blank.png" alt="">
       <img src="./img/connect.png" alt="">
+      <img src="./img/blank.png" alt="">
+      <div class="p2">Packaging</div>
+      <img src="./img/blank.png" alt="">
+      <img src="./img/pack.png" alt="">
    </div>
+      <div class="jino4">
+         <div class="p2">Reflection</div>
+         <br>
+         <div class="p5">TBD</div>
+         <img src="./img/blank.png" alt="">
+         <img src="./img/baby-teeth.png" alt="">
+   </div>
+
 
 
    <div class="stuck-head">
@@ -87,7 +100,21 @@
        </ul>
      </nav>
    </div>
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
 
+<script>// ===== Scroll to Top ====
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+}); </script>
 
 <script> $(".nav-btn").click(function(){
       $("#menu").toggleClass("active");
