@@ -14,7 +14,7 @@ nav{
    font-size: 0.8em;
 }
 
-.shapes-wrapper{
+.index-wrapper{
    flex-direction: column;
 }
 
@@ -57,12 +57,23 @@ main{
    padding: 10px;
  }
 
- .img-wrapper{
+.img-wrapper{
    padding: 10px;
 }
 
 .img-wrapper img{
    width: 100%;
    padding: 10px;
+}
+
+.proj-wrapper img{
+   width: 90%;
+}
+.img-wrapper, .proj-wrapper h1{
+   font-size: 3em;
+}
+
+#tools img{
+   width: 2em;;
 }
 
