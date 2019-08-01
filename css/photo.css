@@ -1,41 +1,29 @@
 * {
    box-sizing: border-box;
  }
-
-a{
+.photo-wrapper a{
    text-decoration: none;
-   color: grey;
+   color: #4e4e4e;
 }
  img {
   width: 18em;
    height: auto;
  }
 
- #photo-intro{
-   font-size: 1.5em;
-   color: #4e4e4e;
-   line-height: 1.3em;
-   text-align: center;
- }
- .photo-wrapper {
-   width: 100%;
-   padding: 0 2rem;
-   text-align: center;
- }
  .polaroid {
    background: #fff;
    padding: 1rem;
    box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.2);
  }
  .caption {
-   font-size: 20px;
+   font-size: 2em;
    padding: 8px;
    text-align: center;
+   font-family: 'Caveat',cursive;
  }
  .item {
    display: inline-block;
    margin-top: 2rem;
-   filter: grayscale(100%);
  }
  .item .polaroid:before {
    content: '';
@@ -52,25 +40,24 @@ a{
    box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
  }
 
- .item:nth-of-type(4n+1) {
-   transform: scale(0.8, 0.8) rotate(5deg);
-   transition: all 0.35s;
- }
- .item:nth-of-type(4n+2) {
-   transform: scale(0.8, 0.8) rotate(-5deg);
-   transition: all 0.35s;
- }
- .item:nth-of-type(4n+4) {
-   transform: scale(0.8, 0.8) rotate(3deg);
-   transition: all 0.35s;
- }
- .item:nth-of-type(4n+3) {
-   transform: scale(0.8, 0.8) rotate(-3deg);
+ .item >*{
    transition: all 0.35s;
  }
 
+ .item:nth-of-type(4n+1) {
+   transform: scale(0.8, 0.8) rotate(5deg);
+ }
+ .item:nth-of-type(4n+2) {
+   transform: scale(0.8, 0.8) rotate(-5deg);
+ }
+ .item:nth-of-type(4n+4) {
+   transform: scale(0.8, 0.8) rotate(3deg);
+ }
+ .item:nth-of-type(4n+3) {
+   transform: scale(0.8, 0.8) rotate(-3deg);
+ }
+
  .item:hover {
-   filter: none;
    transform: scale(1, 1) rotate(0deg) !important;
    transition: all 0.35s;
  }
