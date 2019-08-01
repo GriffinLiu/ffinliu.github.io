@@ -1,20 +1,23 @@
 body {
-   font-family: 'Darker Grotesque', sans-serif;
-   border: 20px solid rgb(245, 224, 227);
+   font-family: 'Lato', sans-serif;
+   border: 1.2em solid #FCE6EE;
 }
 
 nav {
-   padding: 80px;
-   font-size: 1.5em;
-   width: 100%;
-   height: auto;
+   padding: 50px 80px;
+   font-size: 1.3em;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
 }
 
+#nav-items {
+   padding-top: 20px;
+}
 
-.logo {
-   width: 80px;
-   height: 80px;
-   background-color: gray;
+.logo img {
+   width: 5em;
+   height: 5em;
 }
 
 #nav-items li {
@@ -31,31 +34,33 @@ nav {
    display: block;
 }
 
-#about:hover{
-   color: pink;
+#about:hover {
+   color: rgb(198, 222, 241);
 }
 
-#about:active{
-   color: pink;
+#about:active {
+   color: rgb(198, 222, 241);
 }
 
-#proj:hover{
-   color:rgb(252, 247, 182);
+#proj:hover {
+   color: rgb(252, 247, 182);
 }
 
-#proj:active{
-   color:rgb(252, 247, 182);
+#proj:active {
+   color: rgb(252, 247, 182);
 }
 
-#photos:hover{
-   color:rgb(187, 214, 189);
+#photos:hover {
+   color: rgb(187, 214, 189);
 }
 
-#photos:active{
-   color:rgb(187, 214, 189);
+#photos:active {
+   color: rgb(187, 214, 189);
 }
 
-
+h1{
+   font-family: 'Caveat', cursive;
+}
 main {
    margin: 10px 100px;
    display: flex;
@@ -65,49 +70,97 @@ main {
 }
 
 
-.name {
-   font-size: 100px;
-   top: 50%;
-   left: 50%;
+#name {
+   font-size: 8em;
+   margin-top: 1.5em;
+   padding: 30px;
+   text-align: center;
 }
 
-.square {
-   width: 80px;
-   height: 80px;
-   background-color: grey;
-}
-
-.triangle {
-   width: 0;
-   height: 0;
-   border-left: 50px solid transparent;
-   border-right: 50px solid transparent;
-   border-bottom: 100px solid #555;
-   padding: 20px;
-}
-
-.circle {
-   height: 70px;
-   width: 70px;
-   background-color: #555;
-   border-radius: 50%;
-   padding: 20px;
-}
-
-footer {
+.shapes-wrapper {
    display: flex;
-   flex-direction: column;
-   align-items: center;
+   flex-direction: row;
+   margin-top: 90px;
    justify-content: center;
-   margin: 30px;
+   align-items: center;
 }
+
+.shapes-wrapper a{
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.shapes-wrapper img{
+   width: 60%;
+}
+/* .square {
+   animation: spin 5s linear infinite paused;
+}
+
+.square:hover {
+   animation-play-state: running;
+}
+
+
+@keyframes spin {
+   100% {
+      transform: rotate(1turn);
+   }
+} */
+
+
+
+/* .triangle{
+   padding: 20px;
+   animation: enlarge 2s linear infinite paused;
+   transition: transform .5s ease;
+}
+@keyframes enlarge {
+   25% {
+      transform: scale(1.5);
+   }
+   50% {
+      transform: scale(1);
+   }
+   75%{
+      transform: scale(1.5);
+   }
+   100%{
+      transform: scale(1);
+   }
+} */
+
+/* .triangle:hover{
+   animation-play-state: running;
+} */
+
+/*
+.circle{
+   padding: 20px;
+   transform-origin: bottom;
+   animation: bounce 2s cubic-bezier(0.280, 0.840, 0.420, 1) infinite paused;
+}
+
+.circle:hover{
+   animation-play-state: running;
+}
+
+@keyframes bounce {
+   0%   { transform: scale(1,1)      translateY(0); }
+   10%  { transform: scale(1.1,.9)   translateY(0); }
+   30%  { transform: scale(.9,1.1)   translateY(-100px); }
+   50%  { transform: scale(1.05,.95) translateY(0); }
+   57%  { transform: scale(1,1)      translateY(-7px); }
+   64%  { transform: scale(1,1)      translateY(0); }
+   100% { transform: scale(1,1)      translateY(0); }
+} */
 
 .social {
    display: flex;
    flex-direction: row;
-   padding: 30px;
+   padding-top: 3em;
    justify-content: center;
-   font-size: 30px;
+   font-size: 2em;
 }
 
 .social a {
@@ -115,15 +168,18 @@ footer {
    color: black;
    padding: 0px 10px;
    cursor: pointer;
-}
-
-.social i {
    transition: all ease-in-out 150ms;
 }
 
-.social i:hover {
+.social a:hover {
    margin-top: -15px;
    transform: translate(0, -15);
+}
+
+footer {
+   text-align: center;
+   margin: 30px;
+   padding-top: 3em;
 }
 
 .about-wrapper {
@@ -134,11 +190,48 @@ footer {
    align-items: center;
 }
 
+
 .pfp {
-   width: 300px;
+   width: 40%;
    height: 400px;
    background-color: gray;
    margin: 20px;
+}
+
+.bio {
+   font-size: 1.15em;
+   color: #4e4e4e;
+   width: 40%;
+   padding-left: 1em;
+   line-height: 1.3em;
+}
+.bio a{
+   transition: all ease-in-out 150ms;
+}
+
+.bio a:hover{
+   margin-top: -15px;
+   transform: translate(0, -15);
+}
+
+#hello {
+   font-size: 2em;
+   line-height: 2em;
+   font-family: 'Caveat', cursive;
+   color: black;
+}
+
+.bio p {
+   padding-bottom: 1em;
+}
+
+.bio a {
+   color: rgb(63, 62, 62);
+   font-weight: bold;
+}
+
+.bio i {
+   color: rgb(63, 62, 62);
 }
 
 .toggle {
@@ -148,5 +241,3 @@ footer {
    cursor: pointer;
    left: 80%;
 }
-
-

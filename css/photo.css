@@ -2,9 +2,6 @@
    box-sizing: border-box;
  }
 
- body{
-   border: 20px solid rgb(187, 214, 189);
- }
 a{
    text-decoration: none;
    color: grey;
@@ -13,7 +10,14 @@ a{
   width: 18em;
    height: auto;
  }
- .wrapper {
+
+ #photo-intro{
+   font-size: 1.5em;
+   color: #4e4e4e;
+   line-height: 1.3em;
+   text-align: center;
+ }
+ .photo-wrapper {
    width: 100%;
    padding: 0 2rem;
    text-align: center;
@@ -92,6 +96,12 @@ a{
  }
 
  .img-wrapper img{
-    width: 90%;
+    width: 100%;
     padding: 20px;
+ }
+
+ .img-wrapper p{
+    font-family:  'Caveat', cursive;
+    font-size: 2.5em;
+    padding-bottom: 1em;
  }
