@@ -299,6 +299,7 @@
    padding-top: 400px;
    padding-bottom: 400px;
    border-radius: 20px;
+   font-family: 'Muli', sans-serif;
 }
 .toothfairy a:link {
    padding-right: 75px;
@@ -310,4 +311,9 @@
 }
 .works a:hover {
    background-color: rgba(237,247,247,.7);
+}
+
+.charge a:link {
+   padding-left: 50px;
+   padding-right: 50px;
 }
