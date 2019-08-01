@@ -353,9 +353,13 @@ h2 {
    text-align: center;
 }
 
+.proj-wrapper{
+   padding: 2em 5em;
+}
+
 .proj-wrapper p {
-   padding-bottom: 0.5em;
-   line-height: 1.3em;
+   padding-bottom: 1em;
+   line-height: 1.4em;
 }
 
 .proj-wrapper i {
@@ -365,8 +369,9 @@ h2 {
 
 .proj-subhead {
    font-weight: bold;
+   font-size: 1.2em;
+   padding-bottom: 0.5em;
 }
-
 
 .viewmore {
    margin-top: 4em;
@@ -395,3 +400,18 @@ h2 {
 #more-photos a:hover {
    color: #deece6;
 }
+
+#indent{
+   margin-left: 5%;
+}
+
+#table-contents a{
+font-size: 1em;
+line-height: 1.6em;
+color: #4e4e4e;
+}
+
+#table-contents{
+/* border-bottom: 1px solid #fcf9da;
+padding-bottom: 2em; */
+   }
