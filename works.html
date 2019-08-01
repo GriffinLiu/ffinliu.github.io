@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>Xinyi Hu</title>
+   <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
+   <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+   <div class="works">
+      <div class="toothfairy">
+         <a href="#">Interactive Baby Teether</a>
+      </div>
+      <div class="woodshop">
+         <a href="#">Woodshop</a>
+      </div>
+      <div class="charge">
+         <a href="#">Renovation on Public Resting Seats</a>
+      </div>
+   </div>
+
+
+   <div class="stuck-head">
+     <a class="nav-btn" id="nav-open" href="#sidebar"><span>menu</span></a>
+   </div>
+   <div id="menu">
+     <nav class="navigation">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="#">Works</a></li>
+         <li><a href="#">Internship</a></li>
+         <li><a href="#">Contact Me</a></li>
+       </ul>
+     </nav>
+   </div>
+
+</body>
+<script> $(".nav-btn").click(function(){
+      $("#menu").toggleClass("active");
+      $("#content").toggleClass("active");
+      $(".nav-btn").toggleClass("active");
+  		$("h1").toggleClass("active");
+});</script>
+</html>

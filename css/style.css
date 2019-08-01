@@ -1,0 +1,185 @@
+
+body {
+   background-color: #ecf0f1;
+   background-image: url('img/painting.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+}
+
+
+.first-page{
+   display: flex;
+}
+
+.intro {
+   flex: 50%;
+  margin-left: 70px;
+  margin-top:300px;
+  margin-bottom:350px;
+  font-family: 'Muli', sans-serif;
+  line-height: 20px;
+}
+
+.intro1 {
+  padding-bottom: 90px;
+  font-size: 60px;
+}
+
+.intro2 {
+  font-size: 80px;
+  padding-bottom: 70px;
+}
+
+.about {
+   margin-top: 800px;
+   font-size: 20px;
+}
+
+.fas.fa-arrow-down {
+   color: black;
+   margin-left: 45%;
+   padding-top: 10px;
+}
+
+.p {
+   flex:50%;
+   margin-top: 1000px;
+   margin-right: 100px;
+}
+.p1 {
+   font-size: 20px;
+   color: rgba(199, 168, 78);
+}
+.p2 {
+   font-size: 28px;
+   line-height: 30px;
+}
+.p3 {
+   font-size: 25px;
+   line-height: 35px;
+}
+.p4 {
+   font-size:13px;
+   line-height: 30px;
+}
+.p5 {
+   font-size:16px;
+   line-height: 20px;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(199, 168, 78, .9);
+  color: #f1f2f3;
+  z-index: 120;
+}
+
+#menu.active {
+  display: block;
+}
+
+.stuck-head {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 50px;
+  width: 50px;
+  background: url("https://i.imgur.com/qPQxa9T.png") rgba(44, 62, 80, 1.0) no-repeat;
+  background-position: center center;
+  background-size: 60%;
+  opacity: 0.9;
+  border-radius: 100%;
+  padding: .2em;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nav-btn.active {
+  background: url("https://i.imgur.com/ee2nSd1.png") no-repeat;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-radius: 50%;
+  background-position: 50% 50%;
+}
+
+.nav-btn span {
+  display: none;
+}
+
+.navigation {
+  width: 100%;
+}
+
+.navigation ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding-top: 10em;
+  padding-left: 0;
+}
+
+.navigation ul li {
+  text-align: center;
+  clear: both;
+  padding-top: 5px;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 2.2em;
+}
+
+.navigation ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: #2c3e50;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.works {
+   display:flex;
+   font-size: 50px;
+   margin-top: 25%;
+   margin-left: 50px;
+   text-decoration: none;
+   color: rgba(199, 168, 78);
+
+}
+
+.toothfairy {
+   flex: 33.3%;
+}
+
+.woodshop {
+   flex:33.3%;
+}
+
+.charge {
+   flex:33.3%;
+}
