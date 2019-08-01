@@ -294,10 +294,12 @@ footer {
 }
 
 .projects-wrapper img {
-   width: 25em;
-   transition: .5s ease;
-   opacity: 1;
-   backface-visibility: hidden;
+   width: 32em;
+   transition: transform .4s;
+}
+
+.projects-wrapper img:hover {
+   transform: scale(1.2);
 }
 
 .projects-wrapper a {
@@ -308,33 +310,17 @@ footer {
 .projects-wrapper div {
    display: flex;
    flex-direction: row;
-   justify-content: center;
    align-items: center;
    padding-bottom: 20px;
-}
 
-.projects-wrapper div:hover .img {
-   opacity: 0.3;
-}
-
-.projects-wrapper div:hover .projects-title {
-   opacity: 1;
 }
 
 .projects-title {
    font-family: 'Caveat', cursive;
    font-size: 2em;
    text-align: center;
-   border-bottom: 3px solid #fcf9da;
-   transition: .5s ease;
-   opacity: 0;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   text-align: center;
-
+   border-bottom: 5px solid #fcf9da;
+   padding-bottom: 0;
 }
 
 .img-wrapper,

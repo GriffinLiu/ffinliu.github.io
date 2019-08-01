@@ -121,25 +121,25 @@ main {
    padding-bottom: 2em;
 }
 
-.projects-wrapper img {
-   width: 10em;
-
-}
-
-#projects-intro {
-   font-size: 1em;
-}
-
 .projects-title {
    font-size: 1.5em;
    padding-top: 0.5em;
-   ;
+   padding-bottom: 0;
 }
 
+.projects-wrapper img {
+   width: 15em;
+}
+
+.proj-wrapper{
+   padding: 1.2em;
+}
+#projects-intro {
+   font-size: 1.2em;
+}
 
 #tools img {
    width: 2em;
-   ;
 }
 
 .viewmore a {
