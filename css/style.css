@@ -232,14 +232,15 @@ footer {
    line-height: 1.3em;
 }
 
-.bio a {
-   transition: all ease-in-out 150ms;
+.bio a, .bio i {
+   transition: ease 1s;
+   text-decoration: none;
 }
 
-.bio a:hover {
-   margin-top: -15px;
-   transform: translate(0, -15);
+.bio a:hover,.bio i:hover {
+   color: #e1f0f7;
 }
+
 
 #hello {
    font-size: 3em;
@@ -354,7 +355,7 @@ h2 {
 }
 
 .proj-wrapper{
-   padding: 2em 5em;
+   padding: 2em 10em;
 }
 
 .proj-wrapper p {
@@ -411,7 +412,4 @@ line-height: 1.6em;
 color: #4e4e4e;
 }
 
-#table-contents{
-/* border-bottom: 1px solid #fcf9da;
-padding-bottom: 2em; */
-   }
+
