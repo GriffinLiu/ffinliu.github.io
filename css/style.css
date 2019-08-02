@@ -28,6 +28,14 @@
    font-family: 'Muli', sans-serif;
 }
 
+.internback {
+   background-color: #ecf0f1;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
 .intro {
   margin-left: 70px;
   margin-top:250px;
@@ -296,8 +304,8 @@
    font-size: 30px;
    text-decoration: none;
    background-color: rgba(237,247,247);
-   padding-top: 400px;
-   padding-bottom: 400px;
+   padding-top: 450px;
+   padding-bottom: 450px;
    border-radius: 20px;
    font-family: 'Muli', sans-serif;
 }
