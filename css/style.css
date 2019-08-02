@@ -79,12 +79,13 @@ main {
 }
 
 #name {
-   font-size: 8em;
+   font-size: 10vw;
    margin-top: 1.5em;
    padding: 30px;
    text-align: center;
    z-index: 100;
    color: #3a3939;
+
 }
 
 .bokeh {
@@ -172,6 +173,7 @@ main {
    justify-content: center;
    align-items: center;
    z-index: 10;
+   font-size: 1.5vw;
 }
 
 .index-wrapper a {
@@ -194,7 +196,7 @@ main {
    flex-direction: row;
    padding-top: 3em;
    justify-content: center;
-   font-size: 2em;
+   font-size: 2.5vw;
 }
 
 .social a {
@@ -231,7 +233,7 @@ footer {
 .bio {
    font-size: 1.15em;
    width: 40%;
-   padding-left: 1em;
+   padding:3em;
    line-height: 1.3em;
 }
 
@@ -435,5 +437,16 @@ color: #4e4e4e;
 .works-header{
    font-family: 'Caveat', cursive;
    text-align: center;
-   font-size: 3em;
+   font-size: 4vw;
+}
+
+
+@media screen and (min-width:1500px){
+   .bio{
+      font-size: 1.5vw;
+   }
+
+   #projects-intro{
+      font-size: 1.5vw;
+   }
 }

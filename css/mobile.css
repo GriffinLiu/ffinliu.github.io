@@ -58,8 +58,11 @@ nav {
 
 .index-wrapper {
    flex-direction: column;
+   font-size: 4vw;
 }
-
+.social{
+   font-size: 5vw;
+}
 .about-wrapper {
    width: 100%;
    display: flex;
@@ -151,3 +154,10 @@ main {
    flex-direction: column;
 }
 
+.works-header{
+   font-size: 9vw;
+}
+
+.proj-wrapper{
+   padding: 10px;
+}
