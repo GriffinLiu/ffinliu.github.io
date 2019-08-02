@@ -1,0 +1,36 @@
+.main {
+   background-color: #ecf0f1;
+   background-image: url('../img/back.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: 400px 600px;
+}
+
+.intro {
+  margin-left: 70px;
+  margin-top:200px;
+  margin-bottom:150px;
+  font-family: 'Muli', sans-serif;
+  line-height: 20px;
+}
+
+.intro1 {
+  padding-bottom: 90px;
+  font-size: 30px;
+}
+
+.intro2 {
+  font-size: 40px;
+  padding-bottom: 70px;
+}
+.about {
+   font-size: 20px;
+   margin-left: 45%;
+}
+
+.p img{
+   width:250px;
+   padding-left: 20px;
+   margin-top: 10px;
+}
