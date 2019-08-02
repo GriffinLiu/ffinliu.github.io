@@ -355,13 +355,16 @@
 .gif {
    display: flex;
    margin-top: 10px;
-   margin-left:50px;
-   margin-right: 150px;
+   margin-left:190px;
+   margin-right: 100px;
 }
 .logo {
    flex: 50%;
 }
+.gif1 {
+   flex: 50%;
 
+}
 .contact {
    background-color: rgba(237,247,247,.7);
    margin:25% auto;
