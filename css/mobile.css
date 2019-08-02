@@ -4,13 +4,40 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: 0 0;
-   background-size: 400px 600px;
+   background-size: 400px 660px;
+}
+
+.jino {
+   background-color: #ecf0f1;
+   background-image: url('../img/jinoback.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: 375px auto;
+   font-family: 'Muli', sans-serif;
+}
+.workbg {
+   background-color: #ecf0f1;
+   background-image: url('../img/mobilebg.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: 375px auto;
+   font-family: 'Muli', sans-serif;
+}
+
+.internback {
+   background-color: #ecf0f1;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   font-family: 'Muli', sans-serif;
 }
 
 .intro {
   margin-left: 70px;
   margin-top:200px;
-  margin-bottom:150px;
+  margin-bottom:120px;
   font-family: 'Muli', sans-serif;
   line-height: 20px;
 }
@@ -32,5 +59,109 @@
 .p img{
    width:250px;
    padding-left: 20px;
-   margin-top: 10px;
+}
+
+.right {
+   margin-top: 500px;
+   margin-left: -280px;
+}
+
+.p2 {
+   font-size:22px;
+}
+
+.jino2 img{
+   width: 250px;
+}
+
+.jino1 img{
+   width: 250px;
+}
+.jino3 img{
+   width: 250px;
+}
+.jino4 img{
+   width: 250px;
+}
+.contact {
+   background-color: rgba(237,247,247,.7);
+   margin-left: 5%;
+   margin-top: 200px;
+   margin-right: 5%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 5px;
+   padding-right: 10px;
+   border-radius: 15px;
+}
+
+.title {
+   margin-top: 10%;
+   margin-left: 25%;
+   margin-right: 25%;
+}
+
+.jino1 {
+   margin: 25% auto;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.jino2 {
+   margin: 25% auto;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+.jino3 {
+   margin: 25% auto;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.jino4 {
+   margin: 25% auto;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+
+.works a:link {
+   font-size: 15px;
+   text-decoration: none;
+   background-color: rgba(237,247,247,.7);
+   padding-top: 100px;
+   padding-bottom: 100px;
+   border-radius: 20px;
+   font-family: 'Muli', sans-serif;
+   display: flex;
+}
+
+
+.toothfairy a:link {
+   padding-right: 125px;
+   padding-left: 105px;
+   margin-top: -75px;
+   margin-left: -15px;
+   padding-bottom: 75px;
+   padding-top: 75px;
+}
+.woodshop a:link {
+   padding-right: 5px;
+   padding-left: 125px;
+   margin-top: 150px;
+   margin-left: -300px;
+   margin-right: 15px;
+   padding-bottom: 75px;
+   padding-top: 75px;
+}
+
+
+.charge a:link {
+   padding-left: 75px;
+   padding-right: 55px;
+   margin-top:380px;
+   margin-left: -315px;
+   margin-right: 35px;
+   padding-bottom: 75px;
+   padding-top: 75px;
 }
