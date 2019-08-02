@@ -3,10 +3,6 @@
    padding: 0;
 }
 
-/* body {
-  background-color: #E9E9FF;
-} */
-
 body {
   background-image: url('../img/Bluepink.jpg');
   background-size: cover;
@@ -24,6 +20,7 @@ body {
 
 #Aura {
     margin-top: -6px;
+          box-shadow: 0px 0px 0px;
 }
 
 #menu {
@@ -35,31 +32,22 @@ a:active { text-decoration:blink; color: #69687f}
 a:hover { text-decoration:underline;color: #a19fb4}
 a:visited { text-decoration: none;color: #3e3d4b}
 
-.about {
-  width: 200px;
-  margin-left: 40px;
+.gf {
+  margin-left: 250px;
   margin-top: 90px;
-  font-size: 120px;
+  margin-right: 200px;
+  font-size: 35px;
 font-family: 'Montserrat', sans-serif;
   color: #7f7d9a;
-  float: left;
+text-align: left;
+line-height: normal;
 
 }
 
-#major {
-  width: 350px;
-  font-size: 45px;
-  text-align:center;
+b {
+  font-weight: 500;
 }
 
-.list{
-  width: 350px;
-  /* margin-right: 400px; */
-  /* margin-top: 170px; */
-  margin-right: 550px;
-  margin-top: 70px;
-  font-size: 50px;
-  font-family: 'Lato', sans-serif;
-  color: #7f7d9a;
-  float: right;
+.pattern {
+
 }
