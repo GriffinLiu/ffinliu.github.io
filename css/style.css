@@ -1,0 +1,142 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.navbar {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   position: fixed;
+   z-index: 20;
+   right: 20px;
+   top: 20px;
+}
+
+.navbar ul {
+   display: inline-block;
+}
+
+.navbar li {
+   float: left;
+}
+
+.navbar li + li {
+   margin-left: 20px;
+}
+
+.section-01 {
+   background-image: url(../img/bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+#title {
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 80px;
+   color: black;
+   padding-top: 200px;
+   padding-left: 170px;
+}
+
+#subtitle {
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 50px;
+   color: black;
+   padding-top: 10px;
+   padding-left: 80px;
+}
+
+#text {
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 17px;
+   color: #ffe329;
+   padding-top: 20px;
+   padding-left: 260px;
+}
+
+a:link {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   text-decoration: underline;
+   font-weight: 700;
+   font-style: italic;
+   font-size: 18px;
+   color: orange;
+}
+
+a:active {
+   text-decoration: underline;
+   font-style: italic;
+   font-size: 18px;
+   color: orange;
+}
+
+.section-02 {
+   display: flex;
+   position: relative;
+   height: 100vh;
+}
+
+.section-02 img {
+   margin-top: 130px;
+   margin-left: 100px;
+}
+
+.section-02 p {
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 30px;
+   margin-top: 150px;
+   margin-left: 60px;
+   width: 70%;
+}
+
+.section-02 p span {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+}
+
+.item {
+   margin-top: 10px;
+}
+
+.section-04 {
+   height: 50vh;
+   background-color: #ffe329;
+   text-align: center;
+}
+
+.section-04 ul {
+   display: inline-block;
+   margin-top: 80px;
+}
+
+.section-04 li {
+   float: left;
+}
+
+.section-04 li + li {
+   margin-left: 15px;
+}
+
+.section-04 h3 {
+   font-family: 'Archivo Black', sans-serif;
+   font-size: 30px;
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+.section-04 p {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 12px;
+   color: orange;
+}
+
+.section-04 h4 {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   padding-top: 5px;
+}
