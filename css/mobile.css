@@ -11,7 +11,7 @@
    background-color: #ecf0f1;
    background-image: url('../img/jinoback.png');
    background-repeat: no-repeat;
-   background-attachment: fixed;
+   background-attachment: scroll;
    background-position: 0 0;
    background-size: 375px auto;
    font-family: 'Muli', sans-serif;
@@ -157,8 +157,8 @@
 
 
 .charge a:link {
-   padding-left: 75px;
-   padding-right: 55px;
+   padding-left: 105px;
+   padding-right: 75px;
    margin-top:380px;
    margin-left: -315px;
    margin-right: 35px;
@@ -181,4 +181,13 @@
 .jino2 embed {
    width: 250px;
    height: 250px;
+}
+
+.stuck-head {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  margin-bottom: 0;
 }
