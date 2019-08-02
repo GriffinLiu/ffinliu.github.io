@@ -1,62 +1,172 @@
 * {
-   box-sizing: border-box;
-}
-
-/* Style inputs */
-input[type=text], select, textarea {
-   width: 100%;
-   padding: 12px;
-   border: 1px solid #ccc;
-   margin-top: 6px;
-   margin-bottom: 16px;
-   resize: vertical;
-}
-
-input[type=submit] {
-   background-color: #4CAF50;
-   color: white;
-   padding: 12px 20px;
-   border: none;
-   cursor: pointer;
-}
-
-input[type=submit]:hover {
-   background-color: #45a049;
-}
-
-/* Style the container/contact section */
-.container {
-   border-radius: 5px;
-   background-color: #f2f2f2;
-   padding: 10px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-   float: left;
-   width: 50%;
-   margin-top: 6px;
-   padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-   content: "";
-   display: table;
-   clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-   .column,
-   input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-   }
+   margin: 0;
+   padding: 17px;
 }
 
 body {
+   background-color: white;
+   width: auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+p {
+   font-size: 19px;
+   margin-right: -15px;
+}
+
+h2 {
+   font-size: 13px;
+   margin-right: 300px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   min-height: 100vh;
+   margin: 0;
+}
+
+a {
+   text-align: right;
+}
+
+header {
+   background: white;
+   height: 5vh;
+   padding: 1em;
+}
+
+footer {
+   background: white;
+   height: 5vh;
+   padding: 1em;
+}
+
+ul {
+   list-style-type: none;
+   margin: 10px;
+   padding: 10px;
+   border: 10px;
+   width: 200px;
+}
+
+li a {
+   display: block;
+   color: #777676;
+   padding: 2px 20px;
+   text-decoration: none;
    font-size: 12px;
+}
+
+/* Change the link color on hover */
+li a:hover {
+   background-color: transparent;
+}
+
+.logo {
+   margin-top: 145px;
+   margin-left: 90px;
+   padding: 20px;
+}
+
+/* Lord Vader Former Handle Annakin */
+/* Link Visited Focus Hover Active */
+
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   color: #b8b3b3;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a:active {
+   color: #676666;
+   text-decoration: none;
+}
+
+.explanation {
+   font-size: 14px;
    margin-top: -30px;
    margin-left: 100px;
+}
+
+.cv {
+   font-size: 14px;
+   margin-top: 37px;
+}
+
+.statement {
+   font-size: 14px;
+   margin-top: 37px;
+   line-height: 20px;
+}
+
+.about {
+   margin-left: -13px;
+   margin-top: 24px;
+}
+
+.container {
+   font-size: 14px;
+   margin-left: -18px;
+   margin-top: 25px;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing:inherit;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #d8d2b1;
+}
+
+.container {
+   border-radius: 5px;
+   background-color: transparent;
+   padding: 20px;
+}
+
+.fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 50px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+}
+
+.fa:hover {
+   opacity: 1;
+}
+
+.fa-instagram {
+   margin-left: 90px;
+   background: white;
 }
