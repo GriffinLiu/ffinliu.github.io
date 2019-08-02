@@ -83,12 +83,15 @@ main {
    margin-top: 1.5em;
    padding: 30px;
    text-align: center;
+   z-index: 100;
+   color: #3a3939;
 }
 
 .bokeh {
    --yellow: #fcf9da;
    --blue: #e1f0f7;
    --green: #deece6;
+   z-index: 1;
 }
 
 .bokeh div {
