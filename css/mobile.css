@@ -1,0 +1,163 @@
+nav {
+   padding: 10px;
+   padding-bottom: 1.2em;
+}
+
+.logo img {
+   width: 3em;
+   height: 3em;
+}
+
+#nav-items {
+   display: block;
+   font-size: 0.8em;
+}
+
+
+.bokeh div {
+   width: 7em;
+   height: 7em;
+}
+
+.bokeh div:nth-child(1) {
+   top: 30%;
+   left: 70%;
+   transform-origin: -3em 1em;
+}
+
+.bokeh div:nth-child(2) {
+   top: 76%;
+   left: 10%;
+   transform-origin: 6em 6em;
+}
+
+.bokeh div:nth-child(3) {
+   top: 40%;
+   left: 60%;
+   transform-origin: -2em 3em;
+}
+
+.bokeh div:nth-child(4) {
+   top: 90%;
+   left: 30%;
+   transform-origin: 4em 9em;
+}
+
+.bokeh div:nth-child(5) {
+   top: 30%;
+   left: 30%;
+   transform-origin: -1em 3em;
+}
+
+.bokeh div:nth-child(6) {
+   top: 80%;
+   left: 50%;
+   transform-origin: 2em -1em;
+}
+
+
+.index-wrapper {
+   flex-direction: column;
+   font-size: 4vw;
+}
+.social{
+   font-size: 5vw;
+}
+.about-wrapper {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+main {
+   margin: 10px;
+}
+
+#name {
+   margin-top: 0.5em;
+   font-size: 6em;
+}
+
+.pfp {
+   width: 90%;
+}
+
+.bio {
+   width: 90%;
+}
+
+#hello {
+   padding-bottom: 5px;
+}
+
+.photo-wrapper img {
+   width: 15em;
+}
+
+#photo-intro {
+   font-size: 1.1em;
+   padding: 1.6em 1.6em 0em 1.6em;
+}
+
+.img-wrapper {
+   padding: 10px;
+}
+
+.img-wrapper img {
+   width: 100%;
+   padding: 10px;
+}
+
+.proj-wrapper img {
+   width: 90%;
+}
+
+.img-wrapper,
+.proj-wrapper h1 {
+   font-size: 3em;
+}
+
+.projects-wrapper div {
+   flex-direction: column;
+}
+
+.projects-title {
+   font-size: 1.5em;
+   padding-top: 0.5em;
+   padding-bottom: 0;
+}
+
+.projects-wrapper img {
+   width: 15em;
+}
+
+.proj-wrapper{
+   padding: 1.2em;
+}
+
+#projects-intro {
+   font-size: 16px;;
+   padding: 1.6em;
+}
+
+#tools img {
+   width: 2em;
+}
+
+.viewmore a {
+   font-size: 1.2em;
+}
+
+.proj-container{
+   flex-direction: column;
+}
+
+.works-header{
+   font-size: 9vw;
+}
+
+.proj-wrapper{
+   padding: 10px;
+}
