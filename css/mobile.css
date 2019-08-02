@@ -94,8 +94,8 @@ main {
 }
 
 #photo-intro {
-   font-size: 1.2em;
-   padding: 15px;
+   font-size: 1.1em;
+   padding: 1.6em 1.6em 0em 1.6em;
 }
 
 .img-wrapper {
@@ -118,7 +118,6 @@ main {
 
 .projects-wrapper div {
    flex-direction: column;
-   padding-bottom: 2em;
 }
 
 .projects-title {
@@ -134,8 +133,10 @@ main {
 .proj-wrapper{
    padding: 1.2em;
 }
+
 #projects-intro {
-   font-size: 1.2em;
+   font-size: 1.1em;
+   padding: 1.6em;
 }
 
 #tools img {
@@ -145,3 +146,8 @@ main {
 .viewmore a {
    font-size: 1.2em;
 }
+
+.proj-container{
+   flex-direction: column;
+}
+
