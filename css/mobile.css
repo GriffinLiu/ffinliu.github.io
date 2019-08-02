@@ -128,42 +128,45 @@
 .works a:link {
    font-size: 15px;
    text-decoration: none;
-   background-color: rgba(237,247,247,.7);
+   background-color: rgba(199, 168, 78, .8);
    padding-top: 100px;
    padding-bottom: 100px;
-   border-radius: 20px;
    font-family: 'Muli', sans-serif;
    display: flex;
+   border-radius: 0px;
 }
 
 
 .toothfairy a:link {
-   padding-right: 125px;
-   padding-left: 105px;
-   margin-top: -75px;
-   margin-left: -15px;
-   padding-bottom: 75px;
-   padding-top: 75px;
+   color:#f1f2f3;
+   padding-right: 175px;
+   padding-left: 158px;
+   margin-top: -105px;
+   margin-left: -65px;
+   padding-bottom: 83px;
+   padding-top: 105px;
 }
 .woodshop a:link {
-   padding-right: 5px;
-   padding-left: 105px;
-   margin-top: 150px;
-   margin-left: -300px;
-   margin-right: 15px;
-   padding-bottom: 75px;
-   padding-top: 75px;
+   color:#f1f2f3;
+   padding-right: 75px;
+   padding-left: 155px;
+   margin-top: 127px;
+   margin-left: -400px;
+   margin-right: 0px;
+   padding-bottom: 103px;
+   padding-top: 105px;
 }
 
 
 .charge a:link {
+   color:#f1f2f3;
    padding-left: 105px;
    padding-right: 75px;
-   margin-top:380px;
-   margin-left: -315px;
-   margin-right: 35px;
-   padding-bottom: 75px;
-   padding-top: 75px;
+   margin-top:350px;
+   margin-left: -375px;
+   margin-right: 0px;
+   padding-bottom: 90px;
+   padding-top: 105px;
 }
 
 .gif img{
