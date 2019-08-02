@@ -1,0 +1,378 @@
+
+.main {
+   background-color: #ecf0f1;
+   background-image: url('../img/back.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+}
+
+.jino {
+   background-color: #ecf0f1;
+   background-image: url('../img/jinoback.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
+
+.workbg {
+   background-color: #ecf0f1;
+   background-image: url('../img/worksbg.png');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
+
+.internback {
+   background-color: #ecf0f1;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
+
+.chargebg {
+   background-color: white;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: 0 0;
+   background-size: cover;
+   font-family: 'Muli', sans-serif;
+}
+.intro {
+  margin-left: 70px;
+  margin-top:250px;
+  margin-bottom:250px;
+  font-family: 'Muli', sans-serif;
+  line-height: 20px;
+}
+
+.intro1 {
+  padding-bottom: 90px;
+  font-size: 60px;
+}
+
+.intro2 {
+  font-size: 80px;
+  padding-bottom: 70px;
+}
+
+.about {
+   font-size: 20px;
+   margin-left: 45%;
+}
+
+.p{
+   background-color: rgba(237,247,247,.7);
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top:20px;
+}
+
+.fas.fa-arrow-down {
+   color: black;
+   margin-left: 2%;
+   padding-top: 10px;
+}
+
+.p {
+   display:flex;
+   padding-top: 70px;
+}
+
+.right {
+   flex:50%;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+.left {
+   margin-left: 20px;
+   margin-top: 100px;
+   flex:50%;
+}
+.p1 {
+   font-size: 25px;
+   color: rgba(199, 168, 78);
+}
+.p2 {
+   font-size: 35px;
+   line-height: 35px;
+}
+.p3 {
+   font-size: 30px;
+   line-height: 40px;
+}
+.p4 {
+   font-size:15px;
+   line-height: 35px;
+}
+.p5 {
+   font-size:20px;
+   line-height: 25px;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(199, 168, 78, .9);
+  color: #f1f2f3;
+  z-index: 120;
+}
+
+#menu.active {
+  display: block;
+}
+
+.stuck-head {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  background: url("https://i.imgur.com/qPQxa9T.png") rgba(44, 62, 80, 1.0) no-repeat;
+  background-position: center center;
+  background-size: 60%;
+  opacity: 0.9;
+  border-radius: 100%;
+  padding: .2em;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.nav-btn.active {
+  background: url("https://i.imgur.com/ee2nSd1.png") no-repeat;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-radius: 50%;
+  background-position: 50% 50%;
+}
+
+.nav-btn span {
+  display: none;
+}
+
+.navigation {
+  width: 100%;
+}
+
+.navigation ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding-top: 10em;
+  padding-left: 0;
+}
+
+.navigation ul li {
+  text-align: center;
+  clear: both;
+  padding-top: 5px;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 2.2em;
+}
+
+.navigation ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: #2c3e50;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.works {
+   display:flex;
+   font-size: 50px;
+   margin-top: 25%;
+   margin-left: 50px;
+}
+
+.toothfairy {
+   flex: 33.3%;
+}
+
+.woodshop {
+   flex:33.3%;
+}
+
+.charge {
+   flex:33.3%;
+}
+
+.title {
+   margin: 25% 25% 25% 25%;
+}
+
+.title1 {
+   font-size: 50px;
+}
+
+#return-to-top i {
+    color: white;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #EDA109;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: #697268;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+.jino1 {
+   margin: 0 25% 0 25%;
+}
+
+.question {
+   text-align: center;
+   font-size: 30px;
+   line-height: 40px;
+}
+
+.jino2 {
+   margin: 25% 25% 0 25%;
+}
+
+.jino3 {
+   margin: 25% 25% 0 25%;
+}
+
+.jino4 {
+   margin: 25% auto;
+   margin-left: 25%;
+   margin-right:25%;
+}
+
+.works {
+   display:flex;
+   color:#f1f2f3;
+}
+
+
+.works a:link {
+   font-size: 30px;
+   text-decoration: none;
+   background-color: #c7a84e;
+   padding-top: 450px;
+   padding-bottom: 450px;
+   border-radius: 20px;
+   color:#f1f2f3;
+   font-family: 'Muli', sans-serif;
+}
+
+.toothfairy a{
+   flex: 34%;
+   padding-left: 60px;
+   padding-right: 190px;
+   margin-left: -50px;
+   color:#f1f2f3;
+}
+
+.woodshop a{
+   flex:33%;
+   padding-left: 30px;
+   padding-right: 380px;
+   margin-left: -37px;
+   color:#f1f2f3;
+}
+
+.charge a{
+   flex:33%;
+   margin-left: -20px;
+   padding-left: 30px;
+   padding-right: 124px;
+   color:#f1f2f3;
+}
+.works a:hover {
+   background-color: rgba(237,247,247,.7);
+   color: black;
+}
+
+
+
+.gif {
+   display: flex;
+   margin-top: 10px;
+   margin-left:190px;
+   margin-right: 100px;
+}
+.logo {
+   flex: 50%;
+}
+.gif1 {
+   flex: 50%;
+
+}
+.contact {
+   background-color: rgba(237,247,247,.7);
+   margin:25% auto;
+   margin-left: 25%;
+   margin-right: 25%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 15px;
+}

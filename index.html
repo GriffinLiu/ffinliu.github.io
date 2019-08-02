@@ -3,10 +3,126 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>DON’T FORGET TO UPDATE THIS TITLE</title>
+   <title>Xinyi Hu</title>
    <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
    <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <link href="css/mobile.css" rel="stylesheet" media="(max-width: 400px)">
 </head>
-<body>
-</body>
+<body class="main">
+   <div class="first-page">
+      <div class="intro">
+         <div class="intro1">Xinyi Hu</div>
+        <div class="intro2">Industrial &</div>
+        <div class="intro2">UI/UX Designer</div>
+      </div>
+      <div class="about">
+         <div>About</div>
+         <p><span class="fas fa-arrow-down"></span></p>
+
+      </div>
+
+
+   <div class="p">
+      <div class="left"> <img src="./img/pic.png" alt=""> </div>
+      <div class="right">
+      <div class="p1">About Me</div>
+      <br>
+      <div class="p5">Hi, I'm Xinyi Hu. I'm currently a junior majoring in Industrial Design at Rhode Island School of Design. I like to design from a new perspective and objects with interesting graphic.</div>
+      <br>
+      <div class="p5">My main focues are in product design and shoe making, and interactive media. I understand the texture and uses of different metarials like wood, metal, and plastic, etc. I also love working with others and learnd from their expriences.</div>
+      <br>
+      <div class="p5">This portfolio includes works that I've worked in school and intern. I’m always being inspired, discovering what I can do and I’m loving it. Thanks for visiting!</div>
+      <br>
+      <br>
+      <div class="p1">Experience</div>
+      <br>
+      <div class="p2">Secretory for the Pancreatic Cancer Study Group --- Shanghai Academy of Science & Technology</div>
+      <div class="p4">July 2016</div>
+      <div class="p5">Orgnized daily plans and meetings so that the scientists could work to their best. </div>
+      <div class="p5">Managed the translations of foreign scholar studies and papers on pancreatic cancer and assistance on accuratly culturing cells and bacterias.</div>
+      <div class="p5">Helped promoted 2 smaller-scaled experiment and 1 essential study. </div>
+      <br>
+      <div class="p2">Art Exhibition </div>
+      <div class="p4">August 2017</div>
+      <div class="p5">Included works from 2015-2017 </div>
+      <div class="p5">Communicated with the prefessional exhibition organizers and learnt some exhibition tips.  </div>
+      <div class="p5">Be able to express my ideas and opinions of art alsoto the audiences. </div>
+      <br>
+      <div class="p2">Graphic designer --- Tencent Star Route Mobile Game  </div>
+      <div class="p4">June 2018</div>
+      <div class="p5">Be Responsible for two projects for the 1th anniversary for a newly published SLG Game. </div>
+      <div class="p5">Created the logo for the Tencent Star Route Mobile Game, which is the division for SLG games in the Tencent Mobile Game. The logo is now on the official website. </div>
+      <div class="p5">Frequent communicate with the clients </div>
+      <br>
+      <br>
+      <div class="p1">Proficiencies</div>
+      <br>
+      <div class="p2">Design & Software</div>
+      <div class="p5">Adobe creative suite</div>
+      <div class="p4">Photoshop, Illustrator, InDesign, Premiere Pro, XD</div>
+      <div class="p5">3D PROTOTYPE</div>
+      <div class="p4">Solidworks, Rhino, Keyshot</div>
+      <br>
+      <div class="p2">Development</div>
+      <div class="p4">HTML5 & CSS3, Javascript</div>
+      <br>
+      <div class="p2">Handmaking skills</div>
+      <div class="p5">Wood</div>
+      <div class="p4">Carving, Lathing, jointmaking, etc.</div>
+      <div class="p5">Shoemaking</div>
+      <div class="p4">Hand making sandles and sneakers</div>
+      <br>
+      <br>
+      <div class="p1">For more information</div>
+      <br>
+   </div>
+</div>
+
+</div>
+
+   <div class="stuck-head">
+     <a class="nav-btn" id="nav-open" href="#sidebar"><span>menu</span></a>
+   </div>
+   <div id="menu">
+     <nav class="navigation">
+       <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="works.html">Works</a></li>
+         <li><a href="internship.html">Internship</a></li>
+         <li><a href="contact.html">Contact Me</a></li>
+       </ul>
+     </nav>
+   </div>
+
+
+
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
+
+<script> $(".nav-btn").click(function(){
+      $("#menu").toggleClass("active");
+      $("#content").toggleClass("active");
+      $(".nav-btn").toggleClass("active");
+  		$("h1").toggleClass("active");
+});</script>
+
+<script>// ===== Scroll to Top ====
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(200);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+}); </script>
 </html>
