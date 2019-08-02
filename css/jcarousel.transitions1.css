@@ -1,0 +1,70 @@
+.jcarousel-wrapper {
+   margin-left: 80px;
+   margin-top: 40px;
+   position: relative;
+   width: 800px;
+   height: 800px;
+}
+
+.jcarousel-wrapper .photo-credits {
+   position: absolute;
+   right: 12px;
+   bottom: 0;
+   font-size: 13px;
+   color: black;
+   text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+   opacity: .8;
+}
+
+.jcarousel-wrapper .photo-credits a {
+   color: black;
+}
+
+/** Carousel **/
+
+.jcarousel {
+   position: relative;
+   overflow: hidden;
+}
+
+.jcarousel ul {
+   width: 10000em;
+   position: relative;
+   list-style: none;
+   margin: -49px;
+   padding: 10px;
+}
+
+.jcarousel li {
+   float: left;
+   width: 40px;
+   height: 700px;
+}
+
+/** Carousel Controls **/
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+   position: absolute;
+   top: 200px;
+   width: 20px;
+   height: 20px;
+   text-align: center;
+   background: transparent;
+   color: darkgrey;
+   text-decoration: none;
+   font: 20px/28px Arial, sans-serif;
+}
+
+.jcarousel-control-prev {
+   left: -40px;
+}
+
+.jcarousel-control-next {
+   right: -30px;
+}
+
+.jcarousel-control-prev:hover span,
+.jcarousel-control-next:hover span {
+   display: block;
+}
